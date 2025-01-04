@@ -1,0 +1,61 @@
+.circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: rgb(248, 245, 245);
+    border: 20px solid black;
+    text-align: center;
+    justify-items: center;
+    animation: displayAnimation 1s  infinite;
+    border-top-color: rgb(255, 0, 0);
+} 
+       @keyframes displayAnimation{
+        0%{
+            rotate: 72deg;
+            border-top-color: rgb(250, 0, 0);
+        }
+        25%{
+            rotate: 144deg;
+            border-top-color: rgb(15, 27, 255);
+        }
+        50%{
+            rotate: 216deg;
+            border-top-color: rgb(9, 255, 0);
+        }
+        75%{
+            rotate: 288deg;
+            border-top-color: rgb(255, 234, 0);
+        }
+        /* 80%{
+            rotate: 300deg;
+            border-top-color: rgb(251, 255, 0);
+        } */
+       100%{
+        rotate: 360deg;
+        border-top-color: rgb(251, 39, 12);
+       }
+    }
+    .square{
+     width: 250px;
+    height: 250px;
+     border-radius: 5%; 
+    background-color: rgb(248, 245, 245);
+    border: 20px solid black;
+    text-align: center;
+    justify-items: center;
+    animation: rotate 1s  infinite;
+    border-top-color: rgb(16, 198, 248);
+   transition: 0.5s;
+    }
+    .square:hover{
+        transform: scale(1.5px);
+        border-radius: 50%;
+        /* background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikSCFfxLRk3xtEMryjM_tT49_qSfoqNgX0KNI-XBGBROcoDlUfe2O07PAGTeaKBXuKWhDfjgZI8xTXzKLYDCsS3ZXMCnWS1wvxY96lmsElgee2XiC09R0WxdlCmh1boPdnJ2XQwFLG5tid/s1600/waiting-clock.jpg); */
+        
+    }
+    @keyframes rotate{
+       100%{
+        rotate:360deg;
+       }
+    }
+
