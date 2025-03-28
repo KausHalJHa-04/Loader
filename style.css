@@ -26,10 +26,7 @@
             rotate: 288deg;
             border-top-color: rgb(255, 234, 0);
         }
-        /* 80%{
-            rotate: 300deg;
-            border-top-color: rgb(251, 255, 0);
-        } */
+        
        100%{
         rotate: 360deg;
         border-top-color: rgb(251, 39, 12);
